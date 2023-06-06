@@ -1,11 +1,9 @@
 @media only screen and (min-device-width: 1025px) {
   /* NAV-BAR */
   .container-nav {
-    /* width: 1170px; */
     height: 20px;
     margin: 10px;
     display: flex;
-    padding: 30px 50px;
     align-items: center;
     justify-content: center;
   }
@@ -84,6 +82,7 @@
   }
   .certificate-details img {
     height: 100px;
+    padding-right: 10px;
   }
   .section-title-cer {
     padding: 12px;
@@ -93,7 +92,6 @@
     margin-right: 0px;
   }
   .img-cer2 {
-    padding-left: 10px;
     border-left: 2px solid #d6c08d;
   }
   /* PROJECT */

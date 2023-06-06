@@ -3,10 +3,6 @@
   #avatar {
     display: none;
   }
-  .container-nav {
-    height: auto;
-    display: block;
-  }
   .container-nav a:link,
   a:visited {
     display: block;

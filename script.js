@@ -1,20 +1,20 @@
 function handleSubmit() {
   //Get the value of the email input and convert it to lowercase
   const emailValue = document.getElementById('email').value.toLocaleLowerCase();
+
   //Get the element for displaying the error message
   const errorEmail = document.getElementById('error-email');
+
   // The condition is a valid mail.
   const checkMail = /^(([^<>()[\]\.,;:\s@\"]+(\.[^<>()[\]\.,;:\s@\"]+)*)|(\".+\"))@(([^<>()[\]\.,;:\s@\"]+\.)+[^<>()[\]\.,;:\s@\"]{2,})$/i;
-  // console.log('check value email', emailValue);
 
   //Use match to check the entered email
   const check = emailValue.match(checkMail);
-  // console.log('email', check);
 
   // Get the container element for user information
   const sectionContent = document.querySelector('#personal-info .personal-content');
-  // console.log('check section', sectionContent);
 
+  // Check the validate email address.
   const submitControl = document.querySelector('.submit-email');
   if (check) {
     sectionContent.style.display = 'block';
