@@ -221,12 +221,12 @@ tr {
 }
 
 /* PROJECT */
-.project-details {
+/* .project-details {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 40px;
   margin: 20px 100px 100px;
-}
+} */
 .project-item {
   border: 1px solid black;
 }
