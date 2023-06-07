@@ -14,7 +14,7 @@ body {
 }
 
 .bg-grey {
-  background: #f7f7f7;
+  background-color: #f7f7f7;
   height: auto;
   width: 100%;
 }
@@ -75,6 +75,7 @@ tr {
 /* ABOUT================= */
 #target-container {
   align-self: stretch; /* thuộc tính giúp phần tử con được kéo dãn để chiếm toàn bộ chiều cao của container.*/
+  background-color: #f7f7f7;
 }
 #personal-info-container {
   background-color: #f2f0f0;

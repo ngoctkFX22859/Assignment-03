@@ -19,7 +19,6 @@ function handleSubmit() {
   if (check) {
     sectionContent.style.display = 'block';
     submitControl.style.display = 'none';
-    errorEmail.innerHTML = '';
   } else {
     errorEmail.innerHTML = 'Vui lòng nhập đúng email.';
   }
@@ -28,6 +27,7 @@ function handleSubmit() {
 
 function handleOnMouseOver(element) {
   const viewMore = element.querySelector('.btn-view');
+
   if (viewMore) {
     viewMore.style.display = 'block';
     element.classList.add('hover');
@@ -52,7 +52,6 @@ function handleViewMore(element) {
     jobhide.style.display = 'none';
   } else {
     jobhide.style.display = 'block';
-    viewMore.innerHTML = 'Show less';
-    viewMore = parentElement.querySelectorAll('.show-less');
+    viewMore.innerHTML = 'View less';
   }
 }

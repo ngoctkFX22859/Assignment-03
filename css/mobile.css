@@ -3,12 +3,16 @@
   #avatar {
     display: none;
   }
-  .container-nav a:link,
-  a:visited {
+  .container-nav a {
     display: block;
     padding: 10px;
     border-left: none;
     text-align: left;
+    text-decoration: none;
+    color: black;
+  }
+  #nav-bar i {
+    color: #1e70ff;
   }
   /* CERTIFICATE */
   .certificate-details {
